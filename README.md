@@ -96,6 +96,7 @@ The file is located under <code>src/main/resources/static/admin/index.html</code
 
 ### Happy coding!
 
-### My solution:
+### My solution was made with React and Ant Design:
 Run <code>yarn i</code> under the folder`./node` - to install all the dependencies listed within package.json.
+
 Run <code>yarn dev</code> to run the project (Client and Server).
