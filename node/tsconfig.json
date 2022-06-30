@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": false,                /* Report errors on unused locals. */
+    "noUnusedParameters": false,             /* Report errors on unused parameters. */
+    "strictPropertyInitialization": false,
+    "jsx": "react-native",
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "strict": true,
+    "target": "esnext"
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+  "plugins": [
+    [
+     "module-resolver",
+      {
+        "root": [
+          "./src/",
+        ],
+        "extensions": [".js", ".ts", ".tsx", ".json"],
+      }
+    ]
+  ]
+}

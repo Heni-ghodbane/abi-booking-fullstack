@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": false,                /* Report errors on unused locals. */
+    "noUnusedParameters": false,             /* Report errors on unused parameters. */
+    "jsx": "react-native",
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "strict": true,
+    "target": "esnext"
+  },
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js"
+  ],
+  "plugins": [
+        [
+         "module-resolver",
+       {
+         "root": [
+           "./src"
+         ],
+         "extensions": [".js", ".ts", ".tsx", ".json"],
+         "alias": {
+           "tests": [
+             "./tests/"
+           ],
+           "@components": "./src/components"
+         }
+       }
+    ]
+]
+}

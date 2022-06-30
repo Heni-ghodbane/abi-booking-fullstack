@@ -1,0 +1,7 @@
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+.ant-menu-item-selected {
+  background-color: #B0B6B8 !important;
+}
