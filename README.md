@@ -95,3 +95,7 @@ The file is located under <code>src/main/resources/static/admin/index.html</code
 <code>static/admin/index.html</code> for the Node.js stack respectively.
 
 ### Happy coding!
+
+### My solution:
+Run <code>yarn i</code> under the folder`./node` - to install all the dependencies listed within package.json.
+Run <code>yarn dev</code> to run the project (Client and Server).
